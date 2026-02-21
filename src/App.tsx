@@ -101,7 +101,7 @@ function App() {
         <header className="flex items-center justify-between mb-12 border-b border-slate-800 pb-8">
           <div className="flex items-center gap-4">
             <div className="p-3 bg-brand-900/30 rounded-xl border border-brand-800 text-brand-500 overflow-hidden">
-              <img src="/logo.png" alt="Infill Studio 3D" className="w-12 h-12 object-contain" />
+              <img src="../public/INFILLStudio3D_dark.png" alt="Infill Studio 3D" className="w-12 h-12 object-contain" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-white tracking-tight">Infill Studio 3D</h1>
