@@ -75,7 +75,7 @@ export const CalculatorForm: React.FC<Props> = ({ values, onChange, profiles }) 
                                 <DollarSign className="absolute left-3 top-3 w-4 h-4 text-slate-500" />
                                 <input
                                     type="number"
-                                    className="input-field pl-14"
+                                    className="input-field !pl-10"
                                     value={values.spoolCost}
                                     onChange={handleNumberChange('spoolCost')}
                                     placeholder="0"
@@ -88,7 +88,7 @@ export const CalculatorForm: React.FC<Props> = ({ values, onChange, profiles }) 
                                 <Clock className="absolute left-3 top-3 w-4 h-4 text-slate-500" />
                                 <input
                                     type="number"
-                                    className="input-field pl-14"
+                                    className="input-field !pl-10"
                                     value={values.printTime}
                                     onChange={handleNumberChange('printTime')}
                                     placeholder="0"
@@ -104,7 +104,7 @@ export const CalculatorForm: React.FC<Props> = ({ values, onChange, profiles }) 
                                 <Lock className="absolute left-3 top-3 w-4 h-4 text-yellow-500/50" />
                                 <input
                                     type="number"
-                                    className="input-field pl-14 bg-slate-800/50 text-slate-400 border-slate-700/50"
+                                    className="input-field !pl-10 bg-slate-800/50 text-slate-400 border-slate-700/50"
                                     value={values.hourlyCost}
                                     readOnly
                                     title="Configura esto en el botón de Configuración"
@@ -128,7 +128,7 @@ export const CalculatorForm: React.FC<Props> = ({ values, onChange, profiles }) 
                                 <DollarSign className="absolute left-3 top-3 w-4 h-4 text-slate-500" />
                                 <input
                                     type="number"
-                                    className="input-field pl-14"
+                                    className="input-field !pl-10"
                                     value={values.postProcessingCost}
                                     onChange={handleNumberChange('postProcessingCost')}
                                     placeholder="0"
@@ -142,7 +142,7 @@ export const CalculatorForm: React.FC<Props> = ({ values, onChange, profiles }) 
                                 <Box className="absolute left-3 top-3 w-4 h-4 text-slate-500" />
                                 <input
                                     type="number"
-                                    className="input-field pl-14"
+                                    className="input-field !pl-10"
                                     value={values.packagingCost}
                                     onChange={handleNumberChange('packagingCost')}
                                     placeholder="0"

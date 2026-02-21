@@ -94,7 +94,7 @@ export const SettingsForm: React.FC<Props> = ({ settings, onSave, onClose }) => 
                                     <Zap className="absolute left-3 top-2.5 w-4 h-4 text-slate-500" />
                                     <input
                                         type="number"
-                                        className="input-field pl-14"
+                                        className="input-field !pl-10"
                                         value={localSettings.monthlyPowerCost}
                                         onChange={handleChange('monthlyPowerCost')}
                                     />
@@ -144,7 +144,7 @@ export const SettingsForm: React.FC<Props> = ({ settings, onSave, onClose }) => 
                                     <Calendar className="absolute left-3 top-2.5 w-4 h-4 text-slate-500" />
                                     <input
                                         type="number"
-                                        className="input-field pl-14"
+                                        className="input-field !pl-10"
                                         value={localSettings.machineAmortizationMonths}
                                         onChange={handleChange('machineAmortizationMonths')}
                                     />
